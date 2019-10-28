@@ -9,17 +9,20 @@ This sample code is using AEM Content Fragment to synchronize content from AEM t
 ### Prerequuisite for Setup this Demo
 
 1.We use Experience pages on We.Retail sample sites to demo the content synchronizing between AEM and WeChat mini-program. You should have We.Retail sites installed on your AEM.
+  
 2.Make sure you already have Content Fragment configured properly. 
 You can verify the interface by access the json data of any article under Experience.
+  
 3.Download the WeChat mini-program development IDE and setup your testing account by following the instructions here.
 https://developers.weixin.qq.com/miniprogram/en/dev/
 
 ### Usage
 
 Step1. Start your AEM author instance and login
+  
 Step2. Download the sample code and open it in WeChat mini-program IDE
 By here, if everything goes properly, you should be able to see the Experience page displayed in the mini-program simulator on the left side of the IDE.
-
+  
 You might have error message which says 
 "http://localhost:4502不在一下request合规域名列表中，请参考文档：https://developers.weixin.qq.com/miniprogram/dev/framework/ability/network.html"
 This is caused by lack of ICP in our testing environment.
@@ -28,7 +31,7 @@ To fix this error in testing environment, you can open the project settings and 
 ### Demo Steps
 
 You can edit the content in AEM author instance and then refresh the mini-program, the updated content should be synchronized into mini-program automatically.
-
+  
 You can add or delete any articles under Experience and then check the mini-program to demo the content synchonization.
 
 ### Note 
