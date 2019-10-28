@@ -1,0 +1,17 @@
+<!--pages/component/article/article.wxml-->
+<view class="article">
+    <view class="banner">
+        <image mode="widthFix" src="{{heroImage}}"></image>
+    </view>
+
+    <view class="article-list-box">
+        <view class="paragraphs" wx:for="{{parList}}" wx:key="{{index}}">
+            <rich-text nodes="{{item.html}}"></rich-text>
+            <view class="parImgs"wx:if="{{item.hasComponents}}" >
+              <view wx:for="{{item.imageList}}" wx:key="{{index}}">
+              <image class="paragraphImg" mode="widthFix" src="{{item}}"></image>
+              </view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,14 @@
+<view class="main">
+    <view class="banner">
+        <image mode="widthFix" src="{{heroImage}}"></image>
+    </view>
+
+    <view class="list-box">
+        <view class="subpage" wx:for="{{itemList}}" wx:key="{{index}}">
+                <navigator url="./article/article?index={{index}}">
+                    <image class="subpageImg" mode="widthFix" src="{{item.image}}"></image>
+                    <view class="newest-text"><text style="font-size: 24rpx;">{{item.title}}</text></view>
+                </navigator>
+            </view>
+    </view>
+</view>

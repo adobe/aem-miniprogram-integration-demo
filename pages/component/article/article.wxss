@@ -1,0 +1,7 @@
+/* pages/component/article/article.wxss */
+.article-list-box{
+    margin-top: 10rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    padding: 20rpx;
+}

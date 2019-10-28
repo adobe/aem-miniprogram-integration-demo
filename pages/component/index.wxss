@@ -1,0 +1,18 @@
+/* pages/component/index.wxss */
+.list-box{
+    margin-top: 10rpx;
+    margin-left: 15rpx;
+    margin-right: 15rpx;
+    padding: 20rpx;
+}
+
+.subpage{
+  text-align:center;
+  width: 50%;
+  float: left;
+}
+.subpageImg{
+  box-sizing: border-box;
+  width:100%;
+  padding: 5rpx
+}
